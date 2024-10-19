@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff5be;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title-bar {
+  background-color: #2d545e;
+  color: #f9e98e;
+  padding: 10px 0;
+}
+
+.title-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-bar h1 {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.title-bar nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.title-bar nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.title-bar nav ul li:last-child {
+  margin-right: 0;
+}
+
+.title-bar nav ul li a {
+  color: #c89666;
+  text-decoration: none;
+}
+
+.description h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.description p {
+  font-style: italic;
+}
+
+.photos1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size:large;}
+.photos2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:larger;
+}
+    
+.photos3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;}
+
+.photos1 img {
+  width: 50%;
+  margin-left: 0 px;
+}
+.photos2 img {
+    width: 50%;
+    margin-right: 0px;
+  }
+.photos3 img {
+    width: 50%;
+    margin-left: 0px;
+  }
+
+.content{
+  text-align:center;
+}
+.Studypic{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.Studypic{
+    width :100%;
+    margin-right: 50px;
+    height: fit-content;
+}
+.Books{
+    margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+
+}
+.Links{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  
+}
+.Webs{
+    margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+
+}
+.Mentor{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+
+}
+.Learn{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+
+}
+
+.Contacts{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    
+
+
+}
